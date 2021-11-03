@@ -5,7 +5,7 @@ import {theme} from '../core/theme';
 
 export default function Background(props){
     return(
-        <ImageBackground source={require('/MyProjects/Sampleloginown/assets/pic2.jpg')}
+        <ImageBackground source={require('../../assets/pic2.jpg')}
 
         resizeMode="cover"
         style={styles.background}
